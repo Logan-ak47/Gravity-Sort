@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae34ad6b8eb5224687bbe800b1f2eb9, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GravitySort.GameConfig
+  blockColors:
+  - {r: 1, g: 0.3, b: 0.42, a: 1}
+  - {r: 0.3, g: 0.65, b: 1, a: 1}
+  - {r: 0.36, g: 0.86, b: 0.43, a: 1}
+  - {r: 1, g: 0.85, b: 0.3, a: 1}
+  - {r: 0.7, g: 0.3, b: 1, a: 1}
+  gridPaddingPercent: 0.2
+  blockSpacing: 0.05
+  gridBottomOffset: -3.6
+  pourArcHeight: 1.5
+  pourBlockDuration: 0.2
+  pourStagger: 0.08
+  dropDuration: 0.4
+  clearDuration: 0.3
+  settleDuration: 0.2
+  selectionPulseScale: 1.08
+  selectionPulseDuration: 0.4
+  matchThreshold: 3
+  previewCount: 3
+  freeUndo: 2
+  freeFreeze: 1
+  freeBomb: 1
+  freezeDuration: 10
+  undoGemCost: 5
+  freezeGemCost: 8
+  bombGemCost: 10
+  continueGemCost: 5

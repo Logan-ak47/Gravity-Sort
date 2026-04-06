@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b002f743d75b6b747b7dd77c6d5222a2, type: 3}
+  m_Name: Level_23
+  m_EditorClassIdentifier: Assembly-CSharp::GravitySort.LevelData
+  levelNumber: 23
+  columnCount: 6
+  maxHeight: 8
+  colorCount: 4
+  dropInterval: 2.4333334
+  winCondition: 0
+  winTarget: 0
+  startingBlocks:
+  - column: 1
+    colorIndex: 0
+  - column: 1
+    colorIndex: 1
+  - column: 3
+    colorIndex: 2
+  - column: 1
+    colorIndex: 3
+  - column: 2
+    colorIndex: 2
+  - column: 0
+    colorIndex: 3
+  - column: 5
+    colorIndex: 2
+  - column: 5
+    colorIndex: 1
+  - column: 5
+    colorIndex: 0
+  - column: 1
+    colorIndex: 2
+  - column: 1
+    colorIndex: 3
+  - column: 0
+    colorIndex: 0
+  - column: 1
+    colorIndex: 3
+  - column: 5
+    colorIndex: 1
+  - column: 3
+    colorIndex: 1
+  - column: 0
+    colorIndex: 2
+  - column: 0
+    colorIndex: 0
+  - column: 5
+    colorIndex: 3
+  - column: 2
+    colorIndex: 0
+  - column: 5
+    colorIndex: 1
+  dropSequence:
+  - column: 1
+    colorIndex: 0
+  - column: 3
+    colorIndex: 1
+  - column: 3
+    colorIndex: 3
+  - column: 3
+    colorIndex: 3
+  - column: 3
+    colorIndex: 1
+  - column: 5
+    colorIndex: 2
+  - column: 0
+    colorIndex: 2
+  - column: 5
+    colorIndex: 3
+  - column: 3
+    colorIndex: 1
+  - column: 4
+    colorIndex: 0
+  - column: 0
+    colorIndex: 0
+  - column: 1
+    colorIndex: 3
+  - column: 3
+    colorIndex: 1
+  - column: 2
+    colorIndex: 0
+  - column: 2
+    colorIndex: 2
+  - column: 2
+    colorIndex: 1
+  - column: 2
+    colorIndex: 3
+  - column: 0
+    colorIndex: 2
+  - column: 0
+    colorIndex: 0
+  - column: 4
+    colorIndex: 3
+  - column: 2
+    colorIndex: 2
+  - column: 2
+    colorIndex: 2
+  - column: 4
+    colorIndex: 2
+  - column: 4
+    colorIndex: 0
+  - column: 4
+    colorIndex: 1
+  - column: 4
+    colorIndex: 3
+  - column: 4
+    colorIndex: 0
+  - column: 4
+    colorIndex: 1
+  maxDrops: 28
